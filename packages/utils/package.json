@@ -15,5 +15,8 @@
   ],
   "scripts": {
     "test": "echo \"Error: run tests from utils"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
