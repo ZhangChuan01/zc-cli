@@ -1,6 +1,6 @@
 {
   "name": "@zc-cli/init",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "> TODO: description",
   "author": "zhangchuan <993090861@qq.com>",
   "homepage": "https://github.com/ZhangChuan01/zc-cli#readme",
@@ -27,7 +27,7 @@
     "url": "https://github.com/ZhangChuan01/zc-cli/issues"
   },
   "dependencies": {
-    "fs-extra": "^10.0.0",
-    "@zc-cli/command": "file:../../models/command"
+    "@zc-cli/command": "file:../../models/command",
+    "fs-extra": "^10.0.0"
   }
 }
