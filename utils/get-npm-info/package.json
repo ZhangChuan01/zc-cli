@@ -1,5 +1,5 @@
 {
-  "name": "@zc-cli/log",
+  "name": "get-npm-info",
   "version": "1.0.3",
   "description": "> TODO: description",
   "author": "zhangchuan <993090861@qq.com>",
@@ -13,9 +13,6 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ZhangChuan01/zc-cli.git"
@@ -27,7 +24,9 @@
     "url": "https://github.com/ZhangChuan01/zc-cli/issues"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "fs-extra": "^10.0.0",
-    "npmlog": "^4.1.2"
+    "semver": "^7.3.5",
+    "url-join": "^4.0.1"
   }
 }

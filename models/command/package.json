@@ -1,5 +1,5 @@
 {
-  "name": "@zc-cli/log",
+  "name": "command",
   "version": "1.0.3",
   "description": "> TODO: description",
   "author": "zhangchuan <993090861@qq.com>",
@@ -13,9 +13,6 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ZhangChuan01/zc-cli.git"
@@ -25,9 +22,5 @@
   },
   "bugs": {
     "url": "https://github.com/ZhangChuan01/zc-cli/issues"
-  },
-  "dependencies": {
-    "fs-extra": "^10.0.0",
-    "npmlog": "^4.1.2"
   }
 }

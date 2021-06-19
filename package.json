@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@zc-cli/core": "^1.0.2",
     "lerna": "^4.0.0",
     "zc-cli": "0.0.3"
   }

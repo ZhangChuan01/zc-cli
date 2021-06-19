@@ -1,6 +1,6 @@
 {
-  "name": "@zc-cli/log",
-  "version": "1.0.3",
+  "name": "@zc-cli/exec",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "zhangchuan <993090861@qq.com>",
   "homepage": "https://github.com/ZhangChuan01/zc-cli#readme",
@@ -23,11 +23,12 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
+  "dependencies": {
+    "@zc-cli/log": "file:../../utils/log",
+    "@zc-cli/package": "file:../../models/package",
+    "fs-extra": "^10.0.0"
+  },
   "bugs": {
     "url": "https://github.com/ZhangChuan01/zc-cli/issues"
-  },
-  "dependencies": {
-    "fs-extra": "^10.0.0",
-    "npmlog": "^4.1.2"
   }
 }

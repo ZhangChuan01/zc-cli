@@ -1,6 +1,6 @@
 {
   "name": "@zc-cli/core",
-  "version": "1.0.3",
+  "version": "1.0.2",
   "description": "zc-cli",
   "author": "zhangchuan <993090861@qq.com>",
   "homepage": "",
@@ -23,9 +23,18 @@
     "access": "public"
   },
   "dependencies": {
+    "@zc-cli/exce": "file:../exec",
+    "@zc-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@zc-cli/init": "file:../../commands/init",
     "@zc-cli/log": "file:../../utils/log",
     "colors": "^1.4.0",
+    "commander": "^7.2.0",
+    "dotenv": "^9.0.2",
+    "fs-extra": "^10.0.0",
     "import-local": "^3.0.2",
-    "semver": "^7.3.5"
+    "path-exists": "^4.0.0",
+    "root-check": "1.0.0",
+    "semver": "^7.3.5",
+    "user-home": "^3.0.0"
   }
 }

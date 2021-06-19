@@ -1,6 +1,6 @@
 {
-  "name": "@zc-cli/log",
-  "version": "1.0.3",
+  "name": "@zc-cli/format-path",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "zhangchuan <993090861@qq.com>",
   "homepage": "https://github.com/ZhangChuan01/zc-cli#readme",
@@ -27,7 +27,6 @@
     "url": "https://github.com/ZhangChuan01/zc-cli/issues"
   },
   "dependencies": {
-    "fs-extra": "^10.0.0",
-    "npmlog": "^4.1.2"
+    "fs-extra": "^10.0.0"
   }
 }
